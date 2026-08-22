@@ -55,13 +55,6 @@ The algorithm relies on the fundamental property that every composite number ≤
 
 Therefore, once all eligible factors up to √n have been processed, every remaining unmarked candidate is prime.
 
-#Project Structure
-.
-├── odd_number_sieve.py
-└── README.md
-
-The complete implementation, including the optional step-by-step verbose output, is contained in odd_number_sieve.py.
-
 #Demonstration
 
 For an upper limit such as 50, the program can display the marking process and then produce the resulting prime numbers.
